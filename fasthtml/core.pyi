@@ -230,7 +230,7 @@ def cookie(key: str, value='', max_age=None, expires=None, path='/', domain=None
 def reg_re_param(m, s):
     ...
 reg_re_param('path', '.*?')
-reg_re_param('static', 'ico|gif|jpg|jpeg|webm|css|js|woff|png|svg|mp4|webp|ttf|otf|eot|woff2|txt|html')
+reg_re_param("static", "ico|gif|css|js|woff|svg|mp4|ttf|otf|eot|woff2|txt|html") #|png|webp|jpg|jpeg|webm
 
 class MiddlewareBase:
 
